@@ -1,9 +1,9 @@
-### <p align="center">If you're seeing this it means you haven't installed and launched Stable Diffusion Web UI.  
-### <p align="center">Open JupyterLab first and set up the Web UI from there using the notebooks provided.  
-### <p align="center">Then you can use this page to open the Web UI.
+### <p align="center">ฮั้นแน่ เปิดไม่ติดสินะ
+### <p align="center">สอบถามข้อมูลที่ เพจ AI.JPG
+### <p align="center">[FACEBOOK AIJPG](https://web.facebook.com/AIJPG)
 
 <br>
 
 ### Ports
-* **Connect to HTTP Service [Port 8888] : JupyterLab**
-* **Connect to HTTP Service [Port 3001] : Web UI**
+* **เชื่อมต่อพอต [Port 8888] : เพื่อเปิด JupyterLab**
+* **ถ้าเห็นหน้านี้แสดงว่ามีอะไรผิดพลาดที่ [Port 3001] : Web UI หรือ Web ui ไม่รัน**
