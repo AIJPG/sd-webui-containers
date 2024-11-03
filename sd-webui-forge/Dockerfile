@@ -52,7 +52,7 @@ RUN pip install --no-cache-dir jupyterlab jupyter-archive nbformat \
     requests python-dotenv xformers==${XFORMERS} \
     https://huggingface.co/deauxpas/colabrepo/resolve/main/insightface-0.7.3-cp310-cp310-linux_x86_64.whl && \
     pip install --no-cache-dir -r https://raw.githubusercontent.com/lllyasviel/stable-diffusion-webui-forge/${WEBUI_VERSION}/requirements_versions.txt && \
-    pip install --no-cache-dir -r https://raw.githubusercontent.com/ffxvs/sd-webui-containers/${BRANCH_ID}/requirements/adetailer.txt && \
+    pip install --no-cache-dir -r https://raw.githubusercontent.com/AIJPG/sd-webui-containers/${BRANCH_ID}/requirements/adetailer.txt && \
     pip cache purge
 
 # JupyterLab settings
@@ -65,10 +65,12 @@ COPY runpod/README.md /usr/share/nginx/html/
 
 # Runpod start script
 COPY sd-webui-forge/runpod-start.sh /
+RUN sed -i 's/\r$//' /runpod-start.sh
 RUN chmod +x /runpod-start.sh
 
 # Paperspace start script
 COPY sd-webui-forge/paperspace-start.sh /
+RUN sed -i 's/\r$//' /paperspace-start.sh
 RUN chmod +x /paperspace-start.sh
 
 # Set the default command for the container

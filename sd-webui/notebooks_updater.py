@@ -10,7 +10,7 @@ import requests
 branch_id = os.environ.get('BRANCH_ID')
 root = '/notebooks'
 old_notebooks_path = root + '/old-notebooks'
-main_repo_url = f'https://raw.githubusercontent.com/ffxvs/sd-webui-complete-setup/{branch_id}'
+main_repo_url = f'https://raw.githubusercontent.com/AIJPG/sd-webui-complete-setup/{branch_id}'
 versions_url = main_repo_url + '/versions.json'
 auto1111_runpod_url = main_repo_url + '/sd-webui/sd_webui_runpod.ipynb'
 auto1111_paperspace_url = main_repo_url + '/sd-webui/sd_webui_paperspace.ipynb'

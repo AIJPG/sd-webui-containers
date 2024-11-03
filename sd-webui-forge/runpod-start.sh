@@ -67,9 +67,9 @@ main_dir="/notebooks"
 # Download notebooks
 download_notebooks() {
     cd /internal || exit
-    wget -nv -O main.py https://raw.githubusercontent.com/ffxvs/sd-webui-complete-setup/"$BRANCH_ID"/internal/main.py
-    wget -nv -O on-completed.sh https://raw.githubusercontent.com/ffxvs/sd-webui-complete-setup/"$BRANCH_ID"/internal/on-completed.sh
-    wget -nv -O notebooks_updater.py https://raw.githubusercontent.com/ffxvs/sd-webui-containers/"$BRANCH_ID"/sd-webui-forge/notebooks_updater.py
+    wget -nv -O main.py https://raw.githubusercontent.com/AIJPG/sd-webui-complete-setup/"$BRANCH_ID"/internal/main.py
+    wget -nv -O on-completed.sh https://raw.githubusercontent.com/AIJPG/sd-webui-complete-setup/"$BRANCH_ID"/internal/on-completed.sh
+    wget -nv -O notebooks_updater.py https://raw.githubusercontent.com/AIJPG/sd-webui-containers/"$BRANCH_ID"/sd-webui-forge/notebooks_updater.py
     python notebooks_updater.py --runpod
 }
 

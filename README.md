@@ -4,7 +4,7 @@ _Base container for installing SD WebUI Auto1111 and SD WebUI Forge for Paperspa
 This repo is based on [RunPod Containers](https://github.com/runpod/containers)
 
 ## How to use
-See [SD Web UI Complete Setup](https://github.com/ffxvs/sd-webui-complete-setup)
+See [SD Web UI Complete Setup](https://github.com/AIJPG/sd-webui-complete-setup)
 
 ## Dependencies
 ### SD WebUI Auto1111

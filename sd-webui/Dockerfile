@@ -52,8 +52,8 @@ RUN pip install --no-cache-dir jupyterlab jupyter-archive nbformat \
     requests python-dotenv xformers==${XFORMERS} \
     https://huggingface.co/deauxpas/colabrepo/resolve/main/insightface-0.7.3-cp310-cp310-linux_x86_64.whl && \
     pip install --no-cache-dir -r https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/${WEBUI_VERSION}/requirements_versions.txt && \
-    pip install --no-cache-dir -r https://raw.githubusercontent.com/ffxvs/sd-webui-containers/${BRANCH_ID}/requirements/adetailer.txt && \
-    pip install --no-cache-dir -r https://raw.githubusercontent.com/ffxvs/sd-webui-containers/${BRANCH_ID}/requirements/controlnet.txt && \
+    pip install --no-cache-dir -r https://raw.githubusercontent.com/AIJPG/sd-webui-containers/${BRANCH_ID}/requirements/adetailer.txt && \
+    pip install --no-cache-dir -r https://raw.githubusercontent.com/AIJPG/sd-webui-containers/${BRANCH_ID}/requirements/controlnet.txt && \
     pip cache purge
 
 # JupyterLab settings
